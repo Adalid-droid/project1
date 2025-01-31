@@ -1,6 +1,5 @@
 import pygame
 import const
-
 class Personaje():
     def __init__(self,x,y):
         self.shape = pygame.Rect(0,0,const.ANCHO_PERSONAJE,const.ALTO_PERSONAJE)
@@ -12,4 +11,3 @@ class Personaje():
 
     def dibujar(self, interfaz):
         pygame.draw.rect(interfaz,(const.COLOR_PERSONAJE),self.shape)
-

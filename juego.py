@@ -20,7 +20,7 @@ while run:
     reloj.tick(const.FPS)
 
     ventana.fill(const.COLOR_BG)
-    #calcular el movimiento del jugador
+    #calcular el movimiento del jugasdwador
     delta_x = 0
     delta_y = 0
     if mover_derecha == True:
