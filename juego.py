@@ -15,10 +15,8 @@ mover_izquieda = False
 mover_derecha = False
 #colocar el frame rate
 reloj = pygame.time.Clock()
-while run: 
-    #que vaya 60 fps
+while run:  #que vaya 60 fps
     reloj.tick(const.FPS)
-
     ventana.fill(const.COLOR_BG)
     #calcular el movimiento del jugasdwador
     delta_x = 0

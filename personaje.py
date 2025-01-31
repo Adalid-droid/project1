@@ -11,3 +11,4 @@ class Personaje():
 
     def dibujar(self, interfaz):
         pygame.draw.rect(interfaz,(const.COLOR_PERSONAJE),self.shape)
+        
