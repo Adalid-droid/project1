@@ -34,6 +34,7 @@ pip install pygame
 ### Uso
 
 1.Ejecutar proyecto
+- Ejecutar en vscode "juego.py"
 
 2.Movimiento
 - w = Arriba
